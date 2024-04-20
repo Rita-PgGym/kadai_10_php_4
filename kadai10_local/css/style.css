@@ -1,0 +1,232 @@
+.login_section{
+  padding: 100px 0 0 0;
+}
+
+.login_row{
+  display:flex;
+  align-items: center;
+  margin:5px;
+  color: #666666;
+}
+
+.login_label{
+  width:10%
+}
+
+.login_input{
+  width:90%
+}
+
+body{
+  background-color: #dbedf0;
+  margin:0;
+  padding:0;
+  text-align:left;
+}
+
+img{
+    height:80px;
+    /* margin: 0px 20px 0 20px; */
+    margin: 10px 20px 10px 20px;
+
+}
+
+h1{
+  padding:0 50px 0 50px;
+  font-size: 30px;
+  color: #fdfbfb;
+}
+
+h2{
+  padding: 15px 0 0 20px;
+  color: #666666;
+  font-size: 22px;
+  border-top: 1px solid #c0c0c0;
+}
+
+h3{
+  padding: 5px 0 0 50px;
+  color: #666666;
+  font-size: 18px;
+}
+
+.welcome_msg{
+  color: #fdfbfb;
+  font-size: 20px;
+}
+
+p{
+  padding: 0 0 0 100px;
+  color: #666666;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color :#ffbf1f;
+}
+
+header{
+  position: fixed;
+  background-color: #666666;
+  width: 100%;
+  height: 100px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 100px 0 0;
+  font-weight: bold;
+  color: whitesmoke
+}
+
+.li a:link {
+  color: red;
+}
+
+.li a:visited {
+  color: whitesmoke;
+}
+
+.container{
+  width: 100%;
+  justify-content:flex-start;
+}
+
+.info_row{
+  display:flex;
+  align-items: center;
+  margin:5px;
+  color: #666666;
+}
+
+.info_label{
+  width:17%
+}
+
+.info_input{
+  width:83%
+}
+
+.text_space{
+  width: 400px;
+  height:30px;
+}
+
+#area-1,#area-2,#area-3,#user_reg{
+  padding: 110px 0 0 0;
+}
+
+.select_area{
+  width: 408px;
+  height:37px;
+}
+
+form{
+  padding: 0 30px 20px 30px;
+  color: #666666;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+  align-items: center;
+  justify-content: center;
+  width:120px;
+  height: 40px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: #fdec88;
+  border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+
+button.login,button.regist{
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 40px;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    overflow-wrap: anywhere;
+    background-color: #fdec88;
+    border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+
+button.update{
+  align-items: center;
+  justify-content: center;
+  width:60px;
+  height: 40px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: #fdec88;
+  border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+.update{
+  align-items: center;
+  justify-content: center;
+  width:60px;
+  height: 40px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: #fdec88;
+  border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+button:hover{
+    color: #666666;
+    background: #ffbf1f;
+}
+
+table{
+  border: 1px solid #333333;
+  border-collapse: collapse;
+  margin: 0 0 0 30px ;
+  color: #666666;
+  font-size: 20px;
+}
+
+th{
+  border: 1px solid #333333;
+  padding:10px 30px;
+  text-align: center;
+  color: #666666;
+  font-size: 20px;
+}
+
+td{
+border: 1px solid #333333;
+padding:10px 30px;
+color: #666666;
+font-size: 20px;
+}

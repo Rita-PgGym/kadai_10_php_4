@@ -1,0 +1,45 @@
+<!-- kadai10_PHP04 認証_login.html (HTML) --> 
+<!-- セッションは張らないこと -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welconme back</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="img/png" href="img/favicon.png">
+</head>
+
+<!-- Header部分 Logoとナビゲーションメニュー-->
+<body>
+<header id="login_header">
+  <div class="container">
+    <div><img src="img/cheers.png" alt=""></div>
+    <div><h1>CA Moms</h1></div>
+    <div><img src="img/cheers.png" alt=""></div>
+  </div>
+</header>
+
+<!-- IDとPWDを入力してlogin_act.php に移動する -->
+<form class="login_section" action="login_act.php" method="POST" class="login_form">
+  <div class="login_row">
+    <div class="login_label">
+      <label for="lid">ID:</label>
+    </div>
+    <div class="login_input">
+      <input type="text" name="lid"><br>
+    </div>
+  </div>
+  <div class="login_row">
+    <div class="login_label">
+      <label for="lpw">Password:</label>
+    </div>
+    <div class="login_input">
+      <input type="password" name="lpw"><br>
+    </div>
+  </div>
+  <button type="submit" class="login">ログイン</button>
+</form>
+
+</body>
+</html>
